@@ -9,3 +9,17 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+body::-webkit-scrollbar-track {
+  border-radius: 5xp;
+  background-color: #222222;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: #222222;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #43AA8B;
+}
