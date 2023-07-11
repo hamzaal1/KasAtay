@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={orelega.className}>
+      <body className={`${orelega.className} overflow-hidden`}>
         <LoadAnimation/>
         {children}
       </body>
